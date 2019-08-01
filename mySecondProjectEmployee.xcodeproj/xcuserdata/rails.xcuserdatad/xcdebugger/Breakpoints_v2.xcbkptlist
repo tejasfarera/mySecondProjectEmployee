@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mySecondProjectEmployee/EmployeeAddDetailViewController.swift"
+            timestampString = "585762946.590104"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mySecondProjectEmployee.EmployeeAddDetailViewController.employeeAddDelegate.getter : Swift.Optional&lt;mySecondProjectEmployee.SendBackEmployeeDelegate&gt;"
+                  moduleName = "mySecondProjectEmployee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rails/Desktop/Tejas%20iOS%20Practice/myFirstApp/mySecondProjectEmployee/mySecondProjectEmployee/EmployeeAddDetailViewController.swift"
+                  timestampString = "585761361.013525"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "95">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mySecondProjectEmployee.EmployeeAddDetailViewController.employeeAddDelegate.setter : Swift.Optional&lt;mySecondProjectEmployee.SendBackEmployeeDelegate&gt;"
+                  moduleName = "mySecondProjectEmployee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rails/Desktop/Tejas%20iOS%20Practice/myFirstApp/mySecondProjectEmployee/mySecondProjectEmployee/EmployeeAddDetailViewController.swift"
+                  timestampString = "585761361.015206"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "135">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mySecondProjectEmployee.EmployeeAddDetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; mySecondProjectEmployee.EmployeeAddDetailViewController"
+                  moduleName = "mySecondProjectEmployee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rails/Desktop/Tejas%20iOS%20Practice/myFirstApp/mySecondProjectEmployee/mySecondProjectEmployee/EmployeeAddDetailViewController.swift"
+                  timestampString = "585761361.017061"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "101">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mySecondProjectEmployee.EmployeeAddDetailViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;mySecondProjectEmployee.EmployeeAddDetailViewController&gt;"
+                  moduleName = "mySecondProjectEmployee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rails/Desktop/Tejas%20iOS%20Practice/myFirstApp/mySecondProjectEmployee/mySecondProjectEmployee/EmployeeAddDetailViewController.swift"
+                  timestampString = "585761361.018847"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "94">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9521030022E0B614000A98CB /* EmployeeAddDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952102FF22E0B614000A98CB /* EmployeeAddDetailViewController.swift */; };
+		9521030222E0BF83000A98CB /* employeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9521030122E0BF83000A98CB /* employeeTableViewCell.swift */; };
 		95DCEA3622DF273000FEAD88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DCEA3522DF273000FEAD88 /* AppDelegate.swift */; };
-		95DCEA3822DF273000FEAD88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DCEA3722DF273000FEAD88 /* ViewController.swift */; };
+		95DCEA3822DF273000FEAD88 /* EmployeeDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DCEA3722DF273000FEAD88 /* EmployeeDataViewController.swift */; };
 		95DCEA3B22DF273000FEAD88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DCEA3922DF273000FEAD88 /* Main.storyboard */; };
 		95DCEA3D22DF273200FEAD88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DCEA3C22DF273200FEAD88 /* Assets.xcassets */; };
 		95DCEA4022DF273200FEAD88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DCEA3E22DF273200FEAD88 /* LaunchScreen.storyboard */; };
 		95DCEA4B22DF273200FEAD88 /* mySecondProjectEmployeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DCEA4A22DF273200FEAD88 /* mySecondProjectEmployeeTests.swift */; };
 		95DCEA5622DF273200FEAD88 /* mySecondProjectEmployeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DCEA5522DF273200FEAD88 /* mySecondProjectEmployeeUITests.swift */; };
+		95F5B27722EA03BA00C3DEC1 /* AddEmployeeWithClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F5B27622EA03BA00C3DEC1 /* AddEmployeeWithClosureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		952102FF22E0B614000A98CB /* EmployeeAddDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeAddDetailViewController.swift; sourceTree = "<group>"; };
+		9521030122E0BF83000A98CB /* employeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = employeeTableViewCell.swift; sourceTree = "<group>"; };
 		95DCEA3222DF273000FEAD88 /* mySecondProjectEmployee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mySecondProjectEmployee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DCEA3522DF273000FEAD88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		95DCEA3722DF273000FEAD88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95DCEA3722DF273000FEAD88 /* EmployeeDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDataViewController.swift; sourceTree = "<group>"; };
 		95DCEA3A22DF273000FEAD88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95DCEA3C22DF273200FEAD88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95DCEA3F22DF273200FEAD88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		95DCEA5122DF273200FEAD88 /* mySecondProjectEmployeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mySecondProjectEmployeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DCEA5522DF273200FEAD88 /* mySecondProjectEmployeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySecondProjectEmployeeUITests.swift; sourceTree = "<group>"; };
 		95DCEA5722DF273200FEAD88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F5B27622EA03BA00C3DEC1 /* AddEmployeeWithClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmployeeWithClosureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 		95DCEA3422DF273000FEAD88 /* mySecondProjectEmployee */ = {
 			isa = PBXGroup;
 			children = (
-				95DCEA3522DF273000FEAD88 /* AppDelegate.swift */,
-				95DCEA3722DF273000FEAD88 /* ViewController.swift */,
 				95DCEA3922DF273000FEAD88 /* Main.storyboard */,
+				95DCEA3522DF273000FEAD88 /* AppDelegate.swift */,
+				95DCEA3722DF273000FEAD88 /* EmployeeDataViewController.swift */,
+				952102FF22E0B614000A98CB /* EmployeeAddDetailViewController.swift */,
+				95F5B27622EA03BA00C3DEC1 /* AddEmployeeWithClosureViewController.swift */,
+				9521030122E0BF83000A98CB /* employeeTableViewCell.swift */,
 				95DCEA3C22DF273200FEAD88 /* Assets.xcassets */,
 				95DCEA3E22DF273200FEAD88 /* LaunchScreen.storyboard */,
 				95DCEA4122DF273200FEAD88 /* Info.plist */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95DCEA3822DF273000FEAD88 /* ViewController.swift in Sources */,
+				95DCEA3822DF273000FEAD88 /* EmployeeDataViewController.swift in Sources */,
+				9521030222E0BF83000A98CB /* employeeTableViewCell.swift in Sources */,
 				95DCEA3622DF273000FEAD88 /* AppDelegate.swift in Sources */,
+				9521030022E0B614000A98CB /* EmployeeAddDetailViewController.swift in Sources */,
+				95F5B27722EA03BA00C3DEC1 /* AddEmployeeWithClosureViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A76HWJVB33;
 				INFOPLIST_FILE = mySecondProjectEmployee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,7 +455,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = rails.mySecondProjectEmployee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,6 +466,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A76HWJVB33;
 				INFOPLIST_FILE = mySecondProjectEmployee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +474,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = rails.mySecondProjectEmployee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
